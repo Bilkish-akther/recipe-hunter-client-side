@@ -15,7 +15,7 @@ const RecipeView = () => {
 console.log(id);
 
     useEffect(() => {
-        fetch(`https://bangladesh-food-server-git-main-mufizul27.vercel.app/recipe`)
+        fetch(`https://bangladeshi-foods-recipe-server-imel9qghg-bilkish-akther.vercel.app/recipe`)
         .then(res=>res.json())
         .then(data=> {
             setChef(data.find((e)=> e.id==id));
