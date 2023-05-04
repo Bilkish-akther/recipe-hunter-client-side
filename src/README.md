@@ -1,7 +1,19 @@
 # Hello Bangladesh Developer .....IN HERO.... 
 
 
- # Live Link https://kaleidoscopic-conkies-a31808.netlify.app/
+ # Live Link https://earnest-cajeta-38f17f.netlify.app/
+
+Chef Picture
+
+Chef Name
+
+Years of experience
+
+Numbers of recipes
+
+Likes
+
+View Recipes Button
  
  ## Table of contents
 * [General info](#general-info)
