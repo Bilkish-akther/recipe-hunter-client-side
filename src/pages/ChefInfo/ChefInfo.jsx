@@ -22,13 +22,13 @@ const ChefInfo = ({chef}) => {
       <LazyLoad   onContentVisible={() => <HashLoader color="#36d7b7" />}>
         <CardGroup>
       <Card >
-        <Card.Img className=" w-75 h-50 p-2  m-1 " src={chefImage} />
+        <Card.Img className=" position-absolate h-50 p-2  m-1 " src={chefImage} />
         <Card.Body>
           <Card.Title>{chefName}</Card.Title>
           <Card.Text> {experience} Year of experience</Card.Text>
           <Card.Text>Numbers of recipes:{recipes}</Card.Text>
           <div className='d-flex align-items-center'>
-          <Card.Text className='me-2'>Likes:{likes} </Card.Text><FaThumbsUp/>
+          <Card.Text className='me-2 '>Likes:{likes} </Card.Text>< FaThumbsUp className='mb-3'/>
           <Button onClick={handleViewRecipes} className="btn-secondary ms-auto">View Recipes</Button>
           </div>
 

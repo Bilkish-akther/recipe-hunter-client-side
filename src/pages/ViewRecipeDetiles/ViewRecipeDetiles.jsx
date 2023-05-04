@@ -25,7 +25,7 @@ var isButtonDisable=  checkIsHave(id);
     return (
         <div>
             <CardGroup>
-      <Card >
+      <Card className='.text-body-emphasis'>
        <img className=" top w-80 h-50 p-4" src={recipeImage}  alt="" />
         
         <h3 className='text-center'>{chefName}</h3>
