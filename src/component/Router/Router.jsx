@@ -10,6 +10,7 @@ import Login from '../../pages/Login/Login.jsx';
 import Register from '../../pages/Register/Register.jsx';
 import Home from '../../pages/Home/Home.jsx';
 import RecipeView from '../../pages/Recipe_view/RecipeView.jsx';
+import ErrorPage from '../../pages/ErrorPage/ErrorPage.jsx';
 
 
 const router = createBrowserRouter([
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
      {
         path: 'recipe/:id',
         element:<RecipeView ></RecipeView>
+       },
+       {
+        path: '*',
+        element:<ErrorPage></ErrorPage>
        }
   ]
  },
