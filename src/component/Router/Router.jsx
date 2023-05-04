@@ -15,7 +15,7 @@ import ErrorPage from '../../pages/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
  {
-  loader: () => fetch('https://bangladesh-food-server-jmf2nc7pj-mufizul27.vercel.app/recipe'),
+  loader: () => fetch('https://bangladeshi-foods-recipe-server-jy589pije-bilkish-akther.vercel.app/recipe'),
   path:'/',
   element:<Header></Header> ,
   children: [

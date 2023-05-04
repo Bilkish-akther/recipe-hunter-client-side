@@ -31,7 +31,7 @@ const Blog = () => {
                 
                 Certainly! In React, components often receive props (short for properties) from their parent components. PropTypes is a package in React that provides a way to validate the type and presence of props passed to a component.
 
-                To use PropTypes, you need to import it from the prop-types package at the beginning of your file. Then, you can define the PropTypes for your component by adding a static property called propTypes to your component function or class.
+                To use PropTypees, you need to import it from the prop-types package at the beginning of your file. Then, you can define the PropTypes for your component by adding a static property called propTypes to your component function or class.
                                 </p>
 
 
@@ -58,7 +58,7 @@ In summary, Node.js is a runtime environment for executing JavaScript code on th
 
         Custom hooks are also useful for abstracting complex logic and making it easier to test. By extracting the logic into a custom hook, developers can write tests for the hook function and ensure that it works as expected across different components.
 
-        To create a custom hook in React, simply create a function that uses one or more of the built-in hooks (like useState, useEffect, useContext, etc.) to provide a specific functionality or behavior. Then, export the function and use it in any component where you want to reuse the functionality 
+        To create a custom hook in React (like useState, useEffect, useContext, etc.) to provide a specific functionality or behavior. Then, export the function and use it in any component where you want to reuse the functionality 
                 </p>
 
             </div>

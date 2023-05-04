@@ -15,7 +15,7 @@ const Home = () => {
 
   useEffect(() => {
     fetch(
-      "https://bangladesh-food-server-git-main-mufizul27.vercel.app/recipe?"
+      "https://bangladeshi-foods-recipe-server-jy589pije-bilkish-akther.vercel.app/recipe?"
     )
       .then((res) => res.json())
       .then((data) => setChefList(data));
