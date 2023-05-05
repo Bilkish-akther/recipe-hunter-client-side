@@ -79,5 +79,6 @@ export {
     removeFromDb,
     getShoppingCart,
     deleteShoppingCart,
-    checkIsHave
+    checkIsHave,
+    errorToast
 }

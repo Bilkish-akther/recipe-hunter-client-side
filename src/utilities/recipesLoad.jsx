@@ -1,8 +1,8 @@
-import { getShoppingCart } from "./localStroage.jsx";
+import { getShoppingCart } from "../../src/utilities/localStroage";
 
 const cartRecipesLoader = async () => {
 
-    const loadedProducts = await  fetch(`https://bangladesh-food-server-git-main-mufizul27.vercel.app/recipe`);
+    const loadedProducts = await  fetch(`https://bangladeshi-foods-recipe-server-jy589pije-bilkish-akther.vercel.app/recipe`);
     const arrayOfResponce = await loadedProducts.json();
     var totalRecipes=[];
 
