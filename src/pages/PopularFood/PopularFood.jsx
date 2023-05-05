@@ -14,10 +14,10 @@ const PopularFood = () => {
                         <Card.Title>About us</Card.Title>
 
                         <Card.Text>
-                            Chef’s Pencil is an Bangldeshi food magazine that was launched in 2009 by bangladeshi Hegeman, <br />
+                            Chef Pencil is an Bangldeshi food magazine that was launched in 2009 by bangladeshi Hegeman, <br />
                             a Dhaka chef based in , Bangladesh.
 
-                            Chef’s Pencil features content for all <br />
+                            Chef Pencil features content for all <br />
                             levels of cooks and foodies. Our recipes and how-to guides are provided by some <br />
                             of the best chefs in the world. You can take these recipes through your culinary lifetime.
                         </Card.Text>
@@ -46,7 +46,7 @@ const PopularFood = () => {
                         <Card.Title>Media Coverage</Card.Title>
 
                         <Card.Text>
-                            Chef’s Pencil is featured extensively in the media <br />
+                            Chef Pencil is featured extensively in the media <br />
                             earning coverage in prestigious publications such as Newsweek,
                             <br />
 

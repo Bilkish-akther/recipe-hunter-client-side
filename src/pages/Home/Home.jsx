@@ -16,6 +16,7 @@ const Home = () => {
   useEffect(() => {
     fetch(
       "https://bangladeshi-foods-recipe-server-jy589pije-bilkish-akther.vercel.app/recipe?"
+     
     )
       .then((res) => res.json())
       .then((data) => setChefList(data));
