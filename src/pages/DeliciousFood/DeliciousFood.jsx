@@ -11,7 +11,7 @@ const DeliciousFood = () => {
       <div>
         <Container>
 
-          <Row xs={1} md={4} className=" foodsCard ">
+          <Row xs={1} md={4} className=" text-center ">
             {Array.from({ length: 3 }).map((_, idx) => (
               <Col key={idx}>
                 <Card>
