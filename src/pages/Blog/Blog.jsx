@@ -10,7 +10,7 @@ const Blog = () => {
     return (
         <div className='Question-one mt-20 ms-60 me-32' >
             
-            <div className='AllQuestionDesign' >
+            <div className='AllQuestionDesign p-5' >
                 <h2 className='text-2xl' >1.Tell us the differences between uncontrolled and controlled components?</h2>
                 <p className='Question-one'>
                 Controlled components are those that have their state managed by the applications code. In other words, the application is responsible for maintaining and updating the state of the component. Typically, this involves passing in a value to the component and then handling any changes to that value via callbacks or event handlers. Because the application has full control over the components state, it can ensure that the component behaves predictably and consistently.
@@ -31,7 +31,7 @@ const Blog = () => {
                 
                 Certainly! In React, components often receive props (short for properties) from their parent components. PropTypes is a package in React that provides a way to validate the type and presence of props passed to a component.
 
-                To use PropTypees, you need to import it from the prop-types package at the beginning of your file. Then, you can define the PropTypes for your component by adding a static property called propTypes to your component function or class.
+                To use PropTypes, you need to import it from the prop-types package at the beginning of your file. Then, you can define the PropTypes for your component by adding a static property called propTypes to your component function or class.
                                 </p>
 
 
@@ -58,7 +58,7 @@ In summary, Node.js is a runtime environment for executing JavaScript code on th
 
         Custom hooks are also useful for abstracting complex logic and making it easier to test. By extracting the logic into a custom hook, developers can write tests for the hook function and ensure that it works as expected across different components.
 
-        To create a custom hook in React (like useState, useEffect, useContext, etc.) to provide a specific functionality or behavior. Then, export the function and use it in any component where you want to reuse the functionality 
+        To create a custom hook in React, simply create a function that uses one or more of the built-in hooks (like useState, useEffect, useContext, etc.) to provide a specific functionality or behavior. Then, export the function and use it in any component where you want to reuse the functionality 
                 </p>
 
             </div>

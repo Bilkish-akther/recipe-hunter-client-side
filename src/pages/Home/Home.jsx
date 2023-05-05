@@ -9,6 +9,7 @@ import { AuthContext } from "../../component/providers/AuthProvider";
 import { useNavigation } from "react-router-dom";
 import DeliciousFood from "../DeliciousFood/DeliciousFood";
 import PopularFood from "../PopularFood/PopularFood";
+import { MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 const Home = () => {
   const [chefList, setChefList] = useState([]);
@@ -16,7 +17,6 @@ const Home = () => {
   useEffect(() => {
     fetch(
       "https://bangladeshi-foods-recipe-server-jy589pije-bilkish-akther.vercel.app/recipe?"
-     
     )
       .then((res) => res.json())
       .then((data) => setChefList(data));
@@ -25,6 +25,7 @@ const Home = () => {
   return (
     <div>
       <Banner></Banner>
+       
       <h1 className="text-center">Our Most Popular Chef</h1>
       <div className="cardDesign h-80 w-100 mt-4 ">
         {chefList.map((chef) => (
@@ -33,6 +34,7 @@ const Home = () => {
       </div>
       <DeliciousFood></DeliciousFood>
    <PopularFood></PopularFood>
+
     </div>
   );
 };

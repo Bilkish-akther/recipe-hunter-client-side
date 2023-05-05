@@ -6,12 +6,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDl1LkH4M36OqPaYQRemS3uzrkl-N1vmAY",
-  authDomain: "bangladesh-food-recipe.firebaseapp.com",
-  projectId: "bangladesh-food-recipe",
-  storageBucket: "bangladesh-food-recipe.appspot.com",
-  messagingSenderId: "583678778222",
-  appId: "1:583678778222:web:bd772a5fa940779366bf7f"
+  apiKey: "AIzaSyDZpJ5MFM_CTv_3nFuutWCLTCfcnJGGT8k",
+  authDomain: "bangladeshi-foods-recipe.firebaseapp.com",
+  projectId: "bangladeshi-foods-recipe",
+  storageBucket: "bangladeshi-foods-recipe.appspot.com",
+  messagingSenderId: "322799865826",
+  appId: "1:322799865826:web:31505b2a89c384c03e73bb"
 };
 
 // Initialize Firebase

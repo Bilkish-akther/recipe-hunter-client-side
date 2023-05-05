@@ -38,3 +38,9 @@ padding: 10px;
     padding: 10px;
      
 }
+.AllQuestionDesign p{
+    text-align: justify;
+    line-height: 1.7;
+    word-spacing: 3px;
+   
+}
