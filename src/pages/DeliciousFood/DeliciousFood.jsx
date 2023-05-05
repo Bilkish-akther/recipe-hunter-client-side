@@ -1,5 +1,6 @@
 /*eslint-disable no-unused-vars */
 import React from "react";
+import './DeliciousFood.css';
 import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
 
 const DeliciousFood = () => {
@@ -10,7 +11,7 @@ const DeliciousFood = () => {
       <div>
         <Container>
 
-          <Row xs={1} md={4} className=" ">
+          <Row xs={1} md={4} className=" foodsCard ">
             {Array.from({ length: 3 }).map((_, idx) => (
               <Col key={idx}>
                 <Card>
